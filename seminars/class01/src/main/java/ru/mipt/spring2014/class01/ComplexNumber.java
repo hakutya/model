@@ -1,12 +1,13 @@
 /**
- * ComplexNumber.java
- * Created On Feb 26, 2013
+ * ComplexNumber.java Created On Feb 26, 2013
+ *
  * @author Andrei
  */
 package ru.mipt.spring2014.class01;
 
 public class ComplexNumber
 {
+
 	private final double a, b;
 
 	public ComplexNumber (double a, double b)
@@ -16,7 +17,6 @@ public class ComplexNumber
 	}
 
 	//TODO: создать конструктор без аргументов
-
 	public double getReal ()
 	{
 		return a;
@@ -39,7 +39,6 @@ public class ComplexNumber
 	}
 
 	//TODO: аналогичным образом реализовать методы умножения (multiply) и деления (divide)
-
 	@Override
 	public String toString ()
 	{
@@ -58,4 +57,5 @@ public class ComplexNumber
 			return false;
 		}
 	}
+
 }
